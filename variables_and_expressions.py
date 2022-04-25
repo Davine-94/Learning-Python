@@ -18,3 +18,17 @@ print(mydict)
 
 #You can redclare variables
 myint = "this is a new string"
+print(myint)
+
+#use [] to access a member of a sequence type
+print(mylist[3])
+print(mytuple[0])
+
+#use slices to get part of a sequence
+print(mylist[3:5])
+
+#use slices to reverse a sequence
+print(mylist[::-1])
+
+#dictionaries are accessed via keys
+print(mydict["one"])
